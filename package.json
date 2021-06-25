@@ -1,0 +1,16 @@
+{
+  "name": "node-seeder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node-seeder:up": "node api/database/seeder --up",
+    "node-seeder:down": "node api/database/seeder --down"
+  },
+  "dependencies": {
+	"fs": "^0.0.1-security",
+	"path": "^0.12.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
