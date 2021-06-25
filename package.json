@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "node-seeder:up": "node api/database/seeder --up",
-    "node-seeder:down": "node api/database/seeder --down"
+	"node-seeder:up": "node index.js --up",
+    "node-seeder:down": "node index.js --down"
   },
   "dependencies": {
 	"fs": "^0.0.1-security",
