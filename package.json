@@ -1,16 +1,25 @@
 {
   "name": "node-seeder",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
 	"node-seeder:up": "node index.js --up",
-    "node-seeder:down": "node index.js --down"
+	"node-seeder:down": "node index.js --down"
   },
   "dependencies": {
-	"fs": "^0.0.1-security",
-	"path": "^0.12.7"
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusvbda/node-seeder.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/marcusvbda/node-seeder/issues"
+  },
+  "homepage": "https://github.com/marcusvbda/node-seeder#readme"
 }
